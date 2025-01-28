@@ -1,0 +1,399 @@
+{
+  "farmers": [
+    {
+      "userID": "01-2134657-A-76",
+      "Name": "John Doe",
+      "date_birth": "1985-05-15",
+      "contact": "1234567890",
+      "location": "Springfield",
+      "main_crop": "Tomatoes",
+      "Additional_crops": [
+        "Bell Peppers",
+        "Zucchini"
+      ],
+      "id": "06b2"
+    },
+    {
+      "userID": "12-3421784-B-54",
+      "Name": "Jane Smith",
+      "date_birth": "1990-08-20",
+      "contact": "9876543210",
+      "location": "Shelbyville",
+      "main_crop": "Carrots",
+      "Additional_crops": [
+        "Beets",
+        "Radishes"
+      ],
+      "id": "51d3"
+    },
+    {
+      "userID": "03-5642389-C-32",
+      "Name": "Robert Brown",
+      "date_birth": "1978-03-10",
+      "contact": 4567891234,
+      "location": "Ogdenville",
+      "main_crop": "Potatoes",
+      "Additional_crops": [
+        "Sweet Potatoes",
+        "Onions"
+      ],
+      "id": "5cb0"
+    },
+    {
+      "userID": "25-1239874-D-45",
+      "Name": "Emily Davis",
+      "date_birth": "1995-12-05",
+      "contact": "7891234567",
+      "location": "Capital City",
+      "main_crop": "Lettuce",
+      "Additional_crops": [
+        "Cabbage",
+        "Spinach"
+      ],
+      "id": "968e"
+    },
+    {
+      "userID": "14-8723490-E-41",
+      "Name": "Michael Wilson",
+      "date_birth": "1983-07-19",
+      "contact": 3219876540,
+      "location": "North Haverbrook",
+      "main_crop": "Cucumbers",
+      "Additional_crops": null,
+      "id": "8743"
+    },
+    {
+      "userID": "30-4532891-F-10",
+      "Name": "Sarah Johnson",
+      "date_birth": "1987-02-25",
+      "contact": "1122334455",
+      "location": "Brockway",
+      "main_crop": "Peppers",
+      "Additional_crops": [
+        "Chili",
+        "Eggplant"
+      ],
+      "id": "f7fc"
+    },
+    {
+      "userID": "09-7832465-I-35",
+      "Name": "Daniel Clark",
+      "date_birth": "1998-06-15",
+      "contact": "3344556677",
+      "location": "New Springfield",
+      "main_crop": "Broccoli",
+      "Additional_crops": [
+        "Cauliflower",
+        "Kale"
+      ],
+      "id": "3289"
+    },
+    {
+      "userID": "08-9876543-J-28",
+      "Name": "Laura Thompson",
+      "date_birth": "1989-04-10",
+      "contact": "6655447788",
+      "location": "East Haven",
+      "main_crop": "Garlic",
+      "Additional_crops": [
+        "Shallots",
+        "Chives"
+      ],
+      "id": "c9c6"
+    },
+    {
+      "userID": "27-4537621-K-12",
+      "Name": "Chris Green",
+      "date_birth": "1975-09-14",
+      "contact": 7788992233,
+      "location": "Willow Creek",
+      "main_crop": "Celery",
+      "Additional_crops": [
+        "Parsley"
+      ],
+      "id": "1756"
+    }
+  ],
+  "buyers-contractors": [
+    {
+      "userID": "11-9988734-L-47",
+      "Name": "Sophia Moore",
+      "date_birth": "1992-01-30",
+      "contact": "4433226655",
+      "location": "Pine Valley",
+      "main_crop": "Zucchini",
+      "Additional_crops": [
+        "Squash",
+        "Pumpkin"
+      ],
+      "id": "52a1"
+    },
+    {
+      "userID": "22-3456789-M-39",
+      "Name": "Oliver Baker",
+      "date_birth": "1980-07-22",
+      "contact": "5544332211",
+      "location": "Riverdale",
+      "main_crop": "Leeks",
+      "Additional_crops": [
+        "Scallions"
+      ],
+      "id": "368c"
+    },
+    {
+      "userID": "17-6543218-N-65",
+      "Name": "Emma White",
+      "date_birth": "1984-11-18",
+      "contact": "6677889900",
+      "location": "Cedar Town",
+      "main_crop": "Cabbage",
+      "Additional_crops": [
+        "Brussels Sprouts"
+      ],
+      "id": "b76e"
+    },
+    {
+      "id": "94c7",
+      "userID": "63-3128050 M 07",
+      "Name": "Genius K Mutusva",
+      "date_birth": "2003-10-04",
+      "contact": "kudsiemtusva@gmail.com",
+      "location": "Chitungwiza",
+      "main_crop": "Tomatoes",
+      "Additional_crops": ""
+    },
+    {
+      "id": "e424",
+      "userID": "07-3128050 M 07",
+      "Name": "Mutusva Kudzanai",
+      "date_birth": "2004-10-10",
+      "contact": "0789782386",
+      "location": "Belvedere",
+      "main_crop": "Tomatoes",
+      "Additional_crops": [
+        "Cabbage",
+        " Chili"
+      ]
+    }
+  ],
+  "produce": [
+    {
+      "produceID": "P01-2134657",
+      "farmerID": "01-2134657-A-76",
+      "produceType": "Tomatoes",
+      "quantity": 500,
+      "price": 2.5,
+      "unit_type": "kg",
+      "id": "6b3c"
+    },
+    {
+      "produceID": "P04-3421784",
+      "farmerID": "12-3421784-B-54",
+      "produceType": "Beets",
+      "quantity": 400,
+      "price": 2,
+      "unit_type": "kg",
+      "id": "11ed"
+    },
+    {
+      "produceID": "P06-5642389",
+      "farmerID": "03-5642389-C-32",
+      "produceType": "Sweet Potatoes",
+      "quantity": 700,
+      "price": 2.2,
+      "unit_type": "kg",
+      "id": "812a"
+    },
+    {
+      "produceID": "P07-1239874",
+      "farmerID": "25-1239874-D-45",
+      "produceType": "Lettuce",
+      "quantity": 250,
+      "price": 1.2,
+      "unit_type": "unit",
+      "id": "adc1"
+    },
+    {
+      "produceID": "P08-1239874",
+      "farmerID": "25-1239874-D-45",
+      "produceType": "Spinach",
+      "quantity": 180,
+      "price": 1.5,
+      "unit_type": "kg",
+      "id": "0fe7"
+    },
+    {
+      "produceID": "P02-2134657",
+      "farmerID": "01-2134657-A-76",
+      "produceType": "Bell Peppers",
+      "quantity": 300,
+      "price": 3,
+      "unit_type": "kg",
+      "id": "06a0"
+    },
+    {
+      "produceID": "P09-8723490",
+      "farmerID": "14-8723490-E-41",
+      "produceType": "Cucumbers",
+      "quantity": 600,
+      "price": 1.8,
+      "unit_type": "kg",
+      "id": "96f9"
+    },
+    {
+      "produceID": "P03-3421784",
+      "farmerID": "12-3421784-B-54",
+      "produceType": "Carrots",
+      "quantity": 800,
+      "price": 1.8,
+      "unit_type": "kg",
+      "id": "b2c8"
+    },
+    {
+      "produceID": "P10-4532891",
+      "farmerID": "30-4532891-F-10",
+      "produceType": "Peppers",
+      "quantity": 400,
+      "price": 2.8,
+      "unit_type": "kg",
+      "id": "a435"
+    },
+    {
+      "produceID": "P11-4532891",
+      "farmerID": "30-4532891-F-10",
+      "produceType": "Chili",
+      "quantity": 200,
+      "price": 3.5,
+      "unit_type": "kg",
+      "id": "2634"
+    },
+    {
+      "produceID": "P12-7832465",
+      "farmerID": "09-7832465-I-35",
+      "produceType": "Broccoli",
+      "quantity": 300,
+      "price": 2.7,
+      "unit_type": "kg",
+      "id": "efc4"
+    },
+    {
+      "produceID": "P12-7832466",
+      "farmerID": "09-7832465-I-35",
+      "produceType": "Cauliflower",
+      "quantity": 100,
+      "price": 3.5,
+      "unit_type": "kg",
+      "id": "62e3"
+    },
+    {
+      "produceID": "P05-5642389",
+      "farmerID": "03-5642389-C-32",
+      "produceType": "Potatoes",
+      "quantity": 1000,
+      "price": 1.5,
+      "unit_type": "kg",
+      "id": "d5a0"
+    },
+    {
+      "produceID": "P14-3421784",
+      "farmerID": "12-3421784-B-54",
+      "produceType": "Radishes",
+      "quantity": 350,
+      "price": 1.8,
+      "unit_type": "kg",
+      "id": "6fa0"
+    },
+    {
+      "produceID": "P15-5642389",
+      "farmerID": "03-5642389-C-32",
+      "produceType": "Onions",
+      "quantity": 500,
+      "price": 1.6,
+      "unit_type": "kg",
+      "id": "074f"
+    },
+    {
+      "produceID": "P16-5648389",
+      "farmerID": "17-6543218-N-65",
+      "produceType": "Cabbages",
+      "quantity": 500,
+      "price": 1,
+      "unit_type": "unit",
+      "id": "80e4"
+    }
+  ],
+  "credentials": [
+    {
+      "User_ID": "01-2134657-A-76",
+      "password": "pass123",
+      "user_type": "farmer",
+      "id": "a477"
+    },
+    {
+      "User_ID": "12-3421784-B-54",
+      "password": "carrot1",
+      "user_type": "farmer",
+      "id": "66f5"
+    },
+    {
+      "User_ID": "03-5642389-C-32",
+      "password": "potato2",
+      "user_type": "farmer",
+      "id": "6054"
+    },
+    {
+      "User_ID": "25-1239874-D-45",
+      "password": "green45",
+      "user_type": "farmer",
+      "id": "2d60"
+    },
+    {
+      "User_ID": "14-8723490-E-41",
+      "password": "fresh83",
+      "user_type": "buyers-contractor",
+      "id": "65eb"
+    },
+    {
+      "User_ID": "30-4532891-F-10",
+      "password": "pepper7",
+      "user_type": "buyers-contractor",
+      "id": "9691"
+    },
+    {
+      "User_ID": "09-7832465-I-35",
+      "password": "veggie3",
+      "user_type": "farmer",
+      "id": "4f1c"
+    },
+    {
+      "User_ID": "08-9876543-J-28",
+      "password": "garlic9",
+      "user_type": "farmer",
+      "id": "e847"
+    },
+    {
+      "User_ID": "27-4537621-K-12",
+      "password": "celery5",
+      "user_type": "buyers-contractor",
+      "id": "7662"
+    },
+    {
+      "User_ID": "11-9988734-L-47",
+      "password": "squash8",
+      "user_type": "farmer",
+      "id": "4d28"
+    },
+    {
+      "User_ID": "22-3456789-M-39",
+      "password": "leeks12",
+      "user_type": "farmer",
+      "id": "5bdc"
+    },
+    {
+      "User_ID": "17-6543218-N-65",
+      "password": "cabbage4",
+      "user_type": "buyers-contractor",
+      "id": "1f36"
+    }
+  ]
+}
